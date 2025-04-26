@@ -25,7 +25,8 @@
                             <div class="row d-flex">
                                 <div class="col-md-8 col-lg-8">
                                     <form target="_blank" action="https://formsubmit.co/6cebd3b2824e60a12eee8ec1519f5011" method="POST">
-                                            <div class="mb-3"><label class="form-label">Subject</label><select class="border-secondary form-select" id="subject">
+                                        <input type="hidden" name="_subject" value="Someone emailed you from your portfolio!">
+                                            <div class="mb-3"><label class="form-label">Subject</label><select class="border-secondary form-select" name="subject" id="subject">
                                                 <option value="Website Development" selected="">Website Development</option>
                                                 <option value="Mobile Development">Mobile Development</option>
                                                 <option value="Project Proposal">Project Proposal</option>
@@ -35,6 +36,7 @@
                                             </select></div>
                                         <div class="mb-3"><label class="form-label">Email</label><input class="border-secondary form-control" type="email" id="email" name="email" placeholder="Email"></div>
                                         <div class="mb-3"><label class="form-label">Message</label><textarea class="border-secondary form-control" id="message" name="message" rows="6" placeholder="Message"></textarea></div>
+                                        <input type="hidden" name="_autoresponse" value="Your message to Kyle Baldoza has been received. He will reply as soon as he can. Thank you!">
                                         <div><button class="btn btn-lg btn-primary text-white" type="submit">Submit</button></div>
                                         <input type="hidden" name="_next" value="https://kyleylikey.github.io/">
                                         <input type="hidden" name="_captcha" value="false">
